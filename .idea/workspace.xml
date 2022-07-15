@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d25d772-314f-44d2-a64d-22a2bc06d149" name="Default Changelist" comment="ss03 bai tap" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2BrtqiEpQNHKdCGLYq4Gs5W29qh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d25d772-314f-44d2-a64d-22a2bc06d149" name="Default Changelist" comment="" />
+      <created>1657676223762</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657676223762</updated>
+      <workItem from="1657676224965" duration="640000" />
+      <workItem from="1657699154258" duration="671000" />
+      <workItem from="1657780599017" duration="255000" />
+      <workItem from="1657812288454" duration="28000" />
+      <workItem from="1657847574060" duration="617000" />
+      <workItem from="1657899201257" duration="447000" />
+      <workItem from="1657899681433" duration="424000" />
+      <workItem from="1657900109160" duration="469000" />
+      <workItem from="1657900769305" duration="658000" />
+      <workItem from="1657901841325" duration="17000" />
+      <workItem from="1657901859563" duration="9000" />
+      <workItem from="1657901900637" duration="12000" />
+    </task>
+    <task id="LOCAL-00001" summary="edit module 4">
+      <created>1657699204890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657699204890</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ss02 bai tap">
+      <created>1657780628538</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657780628538</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ss02 bai tap">
+      <created>1657812305135</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657812305135</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ss03 bai tap">
+      <created>1657899241271</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657899241271</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ss03 bai tap">
+      <created>1657900272664</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657900272664</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ss03 bai tap">
+      <created>1657900829994</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657900829994</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit module 4" />
+    <MESSAGE value="ss02 bai tap" />
+    <MESSAGE value="ss03 bai tap" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss03 bai tap" />
+  </component>
+</project>
