@@ -70,4 +70,11 @@ public class ProductController {
         redirectAttributes.addFlashAttribute("mess", "Delete Ok!");
         return "redirect:/product/showList";
     }
+
+    @GetMapping("view/{id}")
+    public String view(@PathVariable int id, Model mode){
+        Product product = productService.FindById(id);
+        mode.addAttribute("product", product);
+        return "product/view";
+    }
 }
