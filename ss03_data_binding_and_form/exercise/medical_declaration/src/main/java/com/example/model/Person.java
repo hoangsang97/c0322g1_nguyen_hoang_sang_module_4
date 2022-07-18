@@ -4,7 +4,7 @@ public class Person {
     private int id;
     private String name;
     private String yearOfBirth;
-    private int gender;
+    private String gender;
     private String nationality;
     private int idCard;
     private String vehicle;
@@ -21,7 +21,7 @@ public class Person {
     public Person() {
     }
 
-    public Person(int id, String name, String yearOfBirth, int gender, String nationality, int idCard, String vehicle, String numberVehicle, int seats, String starDate, String endDate, String text, String addressContact, String address, int phone, String email) {
+    public Person(int id, String name, String yearOfBirth, String gender, String nationality, int idCard, String vehicle, String numberVehicle, int seats, String starDate, String endDate, String text, String addressContact, String address, int phone, String email) {
         this.id = id;
         this.name = name;
         this.yearOfBirth = yearOfBirth;
@@ -64,11 +64,11 @@ public class Person {
         this.yearOfBirth = yearOfBirth;
     }
 
-    public int getGender() {
+    public String getGender() {
         return gender;
     }
 
-    public void setGender(int gender) {
+    public void setGender(String gender) {
         this.gender = gender;
     }
 

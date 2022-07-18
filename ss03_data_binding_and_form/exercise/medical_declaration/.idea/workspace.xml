@@ -5,66 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76d9974b-3344-4d6a-b655-db2ace7b9fcf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../electronic_mailbox/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/controller/BoxLetterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/model/BoxLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/repository/IBoxLetterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/repository/impl/BoxLetterRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/service/IBoxLetterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/service/impl/BoxLetterServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/webapp/WEB-INF/views/box_letter/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/webapp/WEB-INF/views/box_letter/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/IPersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/impl/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/IPersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss02_spring_controller/exercise/sandwich/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/6.3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/6.3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/6.5.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/6.5.1/gc.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/java/com/example/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/java/com/example/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/java/com/example/repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/java/com/example/repository/impl/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/java/com/example/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/java/com/example/service/impl/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/webapp/WEB-INF/views/student/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/webapp/WEB-INF/views/student/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/webapp/WEB-INF/views/student/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/build/classes/java/main/com/example/controller/BoxLetterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/build/classes/java/main/com/example/controller/BoxLetterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/build/classes/java/main/com/example/repository/IBoxLetterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/build/classes/java/main/com/example/repository/IBoxLetterRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/build/classes/java/main/com/example/repository/impl/BoxLetterRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/build/classes/java/main/com/example/repository/impl/BoxLetterRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/build/classes/java/main/com/example/service/IBoxLetterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/build/classes/java/main/com/example/service/IBoxLetterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/build/classes/java/main/com/example/service/impl/BoxLetterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/build/classes/java/main/com/example/service/impl/BoxLetterServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/build/libs/electronic_mailbox-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/build/libs/electronic_mailbox-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/controller/BoxLetterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/controller/BoxLetterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/repository/IBoxLetterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/repository/IBoxLetterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/repository/impl/BoxLetterRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/repository/impl/BoxLetterRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/service/IBoxLetterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/service/IBoxLetterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/service/impl/BoxLetterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/java/com/example/service/impl/BoxLetterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../electronic_mailbox/src/main/webapp/WEB-INF/views/box_letter/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../electronic_mailbox/src/main/webapp/WEB-INF/views/box_letter/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/repository/IPersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/repository/IPersonRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/repository/impl/PersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/repository/impl/PersonRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/service/IPersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/service/IPersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/service/impl/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/service/impl/PersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/medical_declaration-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/medical_declaration-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/IPersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/IPersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/impl/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/impl/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/IPersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/IPersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/impl/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/update.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -212,6 +216,7 @@
       <updated>1657866698227</updated>
       <workItem from="1657866699564" duration="5150000" />
       <workItem from="1657875524802" duration="8993000" />
+      <workItem from="1658113549416" duration="1479000" />
     </task>
     <servers />
   </component>

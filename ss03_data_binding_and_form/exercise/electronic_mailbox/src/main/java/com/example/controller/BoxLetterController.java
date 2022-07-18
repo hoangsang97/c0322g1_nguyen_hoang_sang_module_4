@@ -18,7 +18,11 @@ public class BoxLetterController {
     @GetMapping("showUpdate")
     public String showUpdateBox(@RequestParam int id, Model model) {
         BoxLetter boxLetter = boxLetterService.FindById(id);
+        String[] languagesList = boxLetterService.languages();
+        Integer[] sizeList = boxLetterService.size();
         model.addAttribute("boxLetter", boxLetter);
+        model.addAttribute("languagesList", languagesList);
+        model.addAttribute("sizeList", sizeList);
         return "box_letter/update";
     }
 

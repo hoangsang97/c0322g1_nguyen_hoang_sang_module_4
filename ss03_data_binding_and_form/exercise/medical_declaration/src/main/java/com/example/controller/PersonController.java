@@ -24,6 +24,12 @@ public class PersonController {
     @GetMapping("showCreate")
     public String showCreate(Model model) {
         model.addAttribute("person", new Person());
+        String[] yearOfBirthList = personService.yearOfBirth();
+        String[] genderList = personService.gender();
+        String[] nationalityList = personService.nationality();
+        model.addAttribute("yearOfBirthList", yearOfBirthList);
+        model.addAttribute("genderList", genderList);
+        model.addAttribute("nationalityList", nationalityList);
         return "create";
     }
 
@@ -36,6 +42,12 @@ public class PersonController {
     @GetMapping("showUpdate")
     public String showUpdate(@RequestParam int id, Model model) {
         Person person = personService.FindById(id);
+        String[] yearOfBirthList = personService.yearOfBirth();
+        String[] genderList = personService.gender();
+        String[] nationalityList = personService.nationality();
+        model.addAttribute("yearOfBirthList", yearOfBirthList);
+        model.addAttribute("genderList", genderList);
+        model.addAttribute("nationalityList", nationalityList);
         model.addAttribute("person", person);
         return "update";
     }

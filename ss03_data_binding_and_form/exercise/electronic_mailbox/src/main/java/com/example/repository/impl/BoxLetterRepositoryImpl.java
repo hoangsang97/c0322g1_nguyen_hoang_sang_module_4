@@ -15,9 +15,22 @@ public class BoxLetterRepositoryImpl implements IBoxLetterRepository {
         boxLetterList.add(new BoxLetter(3, "Japanese", 15, "filter", new String[]{"King", "Asgard"}));
     }
 
+    public static String[] languageList = new String[]{"English", "Vietnamese","Japanese","Chinese"};
+    public static Integer[] sizeList = new Integer[]{5,10,15,25,50,100};
+
     @Override
     public List<BoxLetter> FindAll() {
         return boxLetterList;
+    }
+
+    @Override
+    public String[] languages() {
+        return languageList;
+    }
+
+    @Override
+    public Integer[] size() {
+        return sizeList;
     }
 
     @Override

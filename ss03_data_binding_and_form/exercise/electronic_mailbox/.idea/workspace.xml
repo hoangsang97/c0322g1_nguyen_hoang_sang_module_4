@@ -5,66 +5,67 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="def5dcaf-86ab-4710-80dd-902d99ea3ef5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/BoxLetterController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/model/BoxLetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/IBoxLetterRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/impl/BoxLetterRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/IBoxLetterService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/BoxLetterServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/box_letter/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/box_letter/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/controller/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/repository/IPersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/repository/impl/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/service/IPersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/service/impl/PersonService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/src/main/webapp/WEB-INF/views/update.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../medical_declaration/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../ss02_spring_controller/exercise/sandwich/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/gc.properties" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/java/com/example/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/java/com/example/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/java/com/example/repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/java/com/example/repository/impl/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/java/com/example/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/java/com/example/service/impl/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/webapp/WEB-INF/views/student/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/webapp/WEB-INF/views/student/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/webapp/WEB-INF/views/student/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../demo/demo4/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/controller/BoxLetterController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/controller/BoxLetterController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/repository/IBoxLetterRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/repository/IBoxLetterRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/repository/impl/BoxLetterRepositoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/repository/impl/BoxLetterRepositoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/service/IBoxLetterService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/service/IBoxLetterService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/example/service/impl/BoxLetterServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/example/service/impl/BoxLetterServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/electronic_mailbox-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/electronic_mailbox-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/BoxLetterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/BoxLetterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/IBoxLetterRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/IBoxLetterRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/repository/impl/BoxLetterRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/impl/BoxLetterRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/IBoxLetterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/IBoxLetterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/service/impl/BoxLetterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/service/impl/BoxLetterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/box_letter/update.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/box_letter/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/build/classes/java/main/com/example/controller/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/build/classes/java/main/com/example/controller/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/build/classes/java/main/com/example/repository/IPersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/build/classes/java/main/com/example/repository/IPersonRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/build/classes/java/main/com/example/repository/impl/PersonRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/build/classes/java/main/com/example/repository/impl/PersonRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/build/classes/java/main/com/example/service/IPersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/build/classes/java/main/com/example/service/IPersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/build/classes/java/main/com/example/service/impl/PersonService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/build/classes/java/main/com/example/service/impl/PersonService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/build/libs/medical_declaration-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/build/libs/medical_declaration-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/repository/IPersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/repository/IPersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/repository/impl/PersonRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/repository/impl/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/service/IPersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/service/IPersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/service/impl/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/src/main/java/com/example/service/impl/PersonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../medical_declaration/src/main/webapp/WEB-INF/views/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../medical_declaration/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -115,6 +116,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -224,6 +228,8 @@
       <workItem from="1657868034594" duration="17000" />
       <workItem from="1657875437549" duration="68000" />
       <workItem from="1657875596384" duration="6295000" />
+      <workItem from="1658106554000" duration="2224000" />
+      <workItem from="1658114406855" duration="26000" />
     </task>
     <servers />
   </component>

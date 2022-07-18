@@ -16,6 +16,16 @@ public class BoxLetterServiceImpl implements IBoxLetterService {
     }
 
     @Override
+    public String[] languages() {
+        return boxLetterRepository.languages();
+    }
+
+    @Override
+    public Integer[] size() {
+        return boxLetterRepository.size();
+    }
+
+    @Override
     public BoxLetter FindById(int id) {
         return boxLetterRepository.FindById(id);
     }

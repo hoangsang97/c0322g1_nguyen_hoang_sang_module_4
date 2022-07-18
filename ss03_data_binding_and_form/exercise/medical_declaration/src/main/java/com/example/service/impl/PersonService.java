@@ -16,6 +16,21 @@ public class PersonService implements IPersonService {
     }
 
     @Override
+    public String[] yearOfBirth() {
+        return personRepository.yearOfBirth();
+    }
+
+    @Override
+    public String[] gender() {
+        return personRepository.gender();
+    }
+
+    @Override
+    public String[] nationality() {
+        return personRepository.nationality();
+    }
+
+    @Override
     public Person FindById(int id) {
         return personRepository.FindById(id);
     }

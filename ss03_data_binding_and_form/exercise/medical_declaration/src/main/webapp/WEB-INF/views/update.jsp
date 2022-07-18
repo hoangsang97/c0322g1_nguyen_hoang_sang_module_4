@@ -42,28 +42,19 @@
             <div class="col">
                 <div class="mb-3">
                     <form:label path="yearOfBirth" class="form-label">Năm Sinh</form:label>
-                    <form:input path="yearOfBirth" type="text" class="form-control" />
+                    <form:select path="yearOfBirth" class="form-control" items="${yearOfBirthList}"/>
                 </div>
             </div>
             <div class="col">
                 <div class="mb-3">
                     <label class="form-label">Giới tính</label>
-                    <form:select path="gender" class="form-select">
-                        <c:if test="${person.gender == 0}">
-                        <option value="0" selected>Nữ</option>
-                        <option value="1">Nam</option>
-                        </c:if>
-                        <c:if test="${person.gender == 1}">
-                            <option value="0">Nữ</option>
-                            <option value="1" selected>Nam</option>
-                        </c:if>
-                    </form:select>
+                    <form:select path="gender" class="form-select" items="${genderList}"/>
                 </div>
             </div>
             <div class="col">
                 <div class="mb-3">
                     <label class="form-label">Quốc tịch</label>
-                    <form:input path="nationality" class="form-control" />
+                    <form:select path="nationality" class="form-select" items="${nationalityList}"/>
                 </div>
             </div>
         </div>

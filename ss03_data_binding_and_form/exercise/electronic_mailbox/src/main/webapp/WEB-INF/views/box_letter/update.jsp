@@ -28,88 +28,14 @@
         <div class="row mb-3">
             <form:label path="languages" class="col-sm-2 col-form-label">Languages: </form:label>
             <div class="col-sm-10">
-                <form:select path="languages" class="form-select">
-                    <c:if test="${boxLetter.languages.equals('English')}">
-                        <option value="English" selected>English</option>
-                        <option value="Vietnamese">Vietnamese</option>
-                        <option value="Japanese">Japanese</option>
-                        <option value="Chinese">Chinese</option>
-                    </c:if>
-                    <c:if test="${boxLetter.languages.equals('Vietnamese')}">
-                        <option value="English">English</option>
-                        <option value="Vietnamese" selected>Vietnamese</option>
-                        <option value="Japanese">Japanese</option>
-                        <option value="Chinese">Chinese</option>
-                    </c:if>
-                    <c:if test="${boxLetter.languages.equals('Japanese')}">
-                        <option value="English">English</option>
-                        <option value="Vietnamese">Vietnamese</option>
-                        <option value="Japanese" selected>Japanese</option>
-                        <option value="Chinese">Chinese</option>
-                    </c:if>
-                    <c:if test="${boxLetter.languages.equals('Chinese')}">
-                        <option value="English">English</option>
-                        <option value="Vietnamese">Vietnamese</option>
-                        <option value="Japanese">Japanese</option>
-                        <option value="Chinese" selected>Chinese</option>
-                    </c:if>
-                </form:select>
+                <form:select items="${languagesList}" path="languages" class="form-select"></form:select>
             </div>
         </div>
         <div class="row mb-3">
             <form:label path="size" class="col-sm-2 col-form-label">Page Size</form:label>
             <div class="col-sm-10">
                 <Span>Show </Span>
-                <form:select path="size" class="form-select">
-                    <c:if test="${boxLetter.size == 5}">
-                        <option value="5" selected>5</option>
-                        <option value="10">10</option>
-                        <option value="15">15</option>
-                        <option value="25">25</option>
-                        <option value="50">50</option>
-                        <option value="100">100</option>
-                    </c:if>
-                    <c:if test="${boxLetter.size == 10}">
-                        <option value="5">5</option>
-                        <option value="10" selected>10</option>
-                        <option value="15">15</option>
-                        <option value="25">25</option>
-                        <option value="50">50</option>
-                        <option value="100">100</option>
-                    </c:if>
-                    <c:if test="${boxLetter.size == 15}">
-                        <option value="5">5</option>
-                        <option value="10">10</option>
-                        <option value="15" selected>15</option>
-                        <option value="25">25</option>
-                        <option value="50">50</option>
-                        <option value="100">100</option>
-                    </c:if>
-                    <c:if test="${boxLetter.size == 25}">
-                        <option value="5">5</option>
-                        <option value="10">10</option>
-                        <option value="15">15</option>
-                        <option value="25" selected>25</option>
-                        <option value="50">50</option>
-                        <option value="100">100</option>
-                    </c:if>
-                    <c:if test="${boxLetter.size == 50}">
-                        <option value="5">5</option>
-                        <option value="10">10</option>
-                        <option value="15">15</option>
-                        <option value="25">25</option>
-                        <option value="50" selected>50</option>
-                        <option value="100">100</option>
-                    </c:if>
-                    <c:if test="${boxLetter.size == 100}">
-                        <option value="5">5</option>
-                        <option value="10">10</option>
-                        <option value="15">15</option>
-                        <option value="25">25</option>
-                        <option value="50">50</option>
-                        <option value="100" selected>100</option>
-                    </c:if>
-                </form:select>
+                <form:select path="size" items="${sizeList}" class="form-select"></form:select>
                 <Span> email per page</Span>
             </div>
         </div>

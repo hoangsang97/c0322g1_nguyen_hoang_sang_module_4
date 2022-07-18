@@ -9,14 +9,33 @@ import java.util.List;
 public class PersonRepository implements IPersonRepository {
     private static List<Person> personList = new ArrayList<>();
     static {
-        personList.add(new Person(1, "sang", "1997", 0, "viet nam", 3232431, "Tàu bay", "31341", 2, "2022-18-09", "2022-20-09", "khong", "da nang", "que son", 312124, "sadsad@gmail.com"));
-        personList.add(new Person(2, "sang", "1997", 1, "viet nam", 3232431, "Tàu bay", "31341", 2, "2022-18-09", "2022-20-09", "khong", "da nang", "que son", 312124, "sadsad@gmail.com"));
-        personList.add(new Person(3, "sang", "1997", 1, "viet nam", 3232431, "Tàu bay", "31341", 2, "2022-18-09", "2022-20-09", "khong", "da nang", "que son", 312124, "sadsad@gmail.com"));
+        personList.add(new Person(1, "sang", "1997", "Male", "Viet Nam", 3232431, "Tàu bay", "31341", 2, "2022-18-09", "2022-20-09", "khong", "da nang", "que son", 312124, "sadsad@gmail.com"));
+        personList.add(new Person(2, "sang", "1997", "Female", "Lao", 3232431, "Tàu bay", "31341", 2, "2022-18-09", "2022-20-09", "khong", "da nang", "que son", 312124, "sadsad@gmail.com"));
+        personList.add(new Person(3, "sang", "1997", "Female", "Viet Nam", 3232431, "Tàu bay", "31341", 2, "2022-18-09", "2022-20-09", "khong", "da nang", "que son", 312124, "sadsad@gmail.com"));
     }
+
+    String[] yearOfBirth = new String[]{"1989", "1990", "...", "2022"};
+    String[] gender = new String[]{"Male", "Female"};
+    String[] nationality = new String[]{"Viet Nam", "Lao", "Campuchia"};
 
     @Override
     public List<Person> findAll() {
         return personList;
+    }
+
+    @Override
+    public String[] yearOfBirth() {
+        return yearOfBirth;
+    }
+
+    @Override
+    public String[] gender() {
+        return gender;
+    }
+
+    @Override
+    public String[] nationality() {
+        return nationality;
     }
 
     @Override
