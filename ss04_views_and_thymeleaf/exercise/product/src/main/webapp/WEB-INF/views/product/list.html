@@ -55,7 +55,7 @@
             <td>
                 <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal"
                         data-bs-target="#exampleModal"
-                        onclick="objDelete(this.value)" th:value="${item.id}">
+                        onclick="objDelete(this.value)" th:value="${item.id}+','+${item.productName}">
                     Delete
                 </button>
             </td>
@@ -78,7 +78,7 @@
                 </div>
                 <div class="modal-body">
                     <input type="text" hidden id="idDelete" name="id">
-                    <span class="text-danger">do you want to delete? </span>
+                    <span class="text-danger">do you want to delete? <span id="nameDelete"></span></span>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -94,7 +94,9 @@
         crossorigin="anonymous"></script>
 <script>
     function objDelete(id) {
-        document.getElementById("idDelete").value = id;
+        let arr = id.split(",");
+        document.getElementById("idDelete").value = arr[0];
+        document.getElementById("nameDelete").innerText = arr[1];
     }
 </script>
 </body>

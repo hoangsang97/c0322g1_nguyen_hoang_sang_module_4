@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d25d772-314f-44d2-a64d-22a2bc06d149" name="Default Changelist" comment="ss04 bai tap">
-      <change afterPath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/src/main/webapp/WEB-INF/views/product/view.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/.gradle/7.1.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/.gradle/7.1.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/.gradle/7.1.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/.gradle/7.1.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/.gradle/7.1.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/.gradle/7.1.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/.gradle/7.1.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/.gradle/7.1.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/build/classes/java/main/com/example/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/build/classes/java/main/com/example/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/build/libs/product-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/build/libs/product-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/src/main/java/com/example/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/src/main/java/com/example/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/src/main/webapp/WEB-INF/views/product/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss04_views_and_thymeleaf/exercise/product/src/main/webapp/WEB-INF/views/product/list.html" afterDir="false" />
-    </list>
+    <list default="true" id="3d25d772-314f-44d2-a64d-22a2bc06d149" name="Default Changelist" comment="ss04 bai tap" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,7 +47,7 @@
       <workItem from="1657901859563" duration="9000" />
       <workItem from="1657901900637" duration="12000" />
       <workItem from="1657902344578" duration="76000" />
-      <workItem from="1658135913342" duration="628000" />
+      <workItem from="1658135913342" duration="642000" />
     </task>
     <task id="LOCAL-00001" summary="edit module 4">
       <created>1657699204890</created>
@@ -118,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658135933830</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="ss04 bai tap">
+      <created>1658137753160</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658137753160</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
