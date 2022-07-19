@@ -7,9 +7,7 @@ import java.util.List;
 public interface IProductService {
     List<Product> findAll();
 
-    Product FindById(int id);
-
-    String[] productDescribe();
+    Product findById(int id);
 
     void create(Product product);
 

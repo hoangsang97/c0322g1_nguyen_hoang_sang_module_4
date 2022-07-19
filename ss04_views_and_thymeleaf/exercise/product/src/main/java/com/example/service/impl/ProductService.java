@@ -20,13 +20,8 @@ public class ProductService implements IProductService {
     }
 
     @Override
-    public Product FindById(int id) {
-        return productRepository.FindById(id);
-    }
-
-    @Override
-    public String[] productDescribe() {
-        return productRepository.productDescribe();
+    public Product findById(int id) {
+        return productRepository.findById(id);
     }
 
     @Override

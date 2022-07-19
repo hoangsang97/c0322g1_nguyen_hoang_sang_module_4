@@ -27,7 +27,6 @@ public class ProductController {
     @GetMapping("showCreate")
     public String showCreate(Model model) {
         model.addAttribute("product", new Product());
-        model.addAttribute("productDescribe", productService.productDescribe());
         return "product/create";
     }
 
@@ -41,9 +40,8 @@ public class ProductController {
 
     @GetMapping("showEdit/{id}")
     public String showEdit(@PathVariable int id, Model model) {
-        Product product = productService.FindById(id);
+        Product product = productService.findById(id);
         model.addAttribute("product", product);
-        model.addAttribute("productDescribe", productService.productDescribe());
         return "product/update";
     }
 
@@ -73,7 +71,7 @@ public class ProductController {
 
     @GetMapping("view/{id}")
     public String view(@PathVariable int id, Model mode){
-        Product product = productService.FindById(id);
+        Product product = productService.findById(id);
         mode.addAttribute("product", product);
         return "product/view";
     }
