@@ -8,6 +8,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
+import java.util.ArrayList;
 import java.util.List;
 
 @Repository
@@ -46,7 +47,14 @@ public class ProductRepository implements IProductRepository {
 
     @Override
     public List<Product> search(String name) {
-        TypedQuery<Product> query = entityManager.createQuery("select s from Product as s where s.productName like : name", Product.class).setParameter("name", name);
-        return query.getResultList();
+        TypedQuery<Product> query = entityManager.createQuery("select s from Product as s", Product.class);
+        List<Product> productList = query.getResultList();
+        List<Product> products = new ArrayList<>();
+        for (Product item : productList) {
+            if (item.getProductName().contains(name)) {
+                products.add(item);
+            }
+        }
+        return products;
     }
 }
