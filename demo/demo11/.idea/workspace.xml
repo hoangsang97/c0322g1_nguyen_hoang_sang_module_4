@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b6570c9c-627f-4ebe-8122-5cacad7e8cb6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/model/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/model/ClassRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/model/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/repository/IClassRoomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/repository/ICourseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/repository/IStudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/service/IClassRoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/service/ICourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/service/IStudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/service/impl/ClassRoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/java/vn/codegym/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/resources/templates/student/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo10/src/main/resources/templates/student/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ss06_jpa/exercise/blogs/src/main/resources/templates/blog/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ss06_jpa/exercise/blogs/src/main/resources/templates/blog/list.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2CFJCovs0f0bYRnaujkcUJ2QrOa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b6570c9c-627f-4ebe-8122-5cacad7e8cb6" name="Changes" comment="" />
+      <created>1658392274173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658392274173</updated>
+      <workItem from="1658392275265" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -16,6 +16,12 @@
         <h3>Blog List</h3>
         <a th:href="@{/blog/showCreate}" class="btn btn-primary">Create</a>
     </div>
+    <div>
+        <form th:action="@{/blog/search}">
+            <input type="text" name="search">
+            <input type="submit" value="Search">
+        </form>
+    </div>
     <table class="table">
         <thead>
         <tr>
