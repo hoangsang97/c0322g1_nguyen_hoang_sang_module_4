@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="container-fluid">
+    <h3 class="text-success" th:text="${mess}"></h3>
+    <div class="text-center p-3">
+        <h1>Product List</h1>
+        <a th:href="@{showCreate}" class="btn btn-primary">Create</a>
+    </div>
+    <div class="text-center p-3">
+        <form th:action="@{/product/search?}" method="get">
+            <div class="row">
+                <div class="col-3">
+                    <input type="text" class="form-control" placeholder="Name Search" name="name">
+                </div>
+                <div class="col-1">
+                    <input type="submit" value="Search" class="btn btn-outline-primary">
+                </div>
+            </div>
+        </form>
+    </div>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name Product</th>
+            <th>Price Product</th>
+            <th>Describe Product</th>
+            <th>Producer</th>
+            <th>Edit</th>
+            <th>Delete</th>
+            <th>View</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="item,loop : ${product}">
+            <td th:text="${item.id}"></td>
+            <td th:text="${item.productName}"></td>
+            <td th:text="${item.productPrice}"></td>
+            <td th:text="${item.productDescribe}"></td>
+            <td th:text="${item.producer}"></td>
+            <td>
+                <a th:href="@{/product/showEdit/{id}(id= ${item.getId()})}" class="btn btn-outline-success">Edit</a>
+            </td>
+            <td>
+                <button type="button" class="btn btn-outline-danger" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                        onclick="objDelete(this.value)" th:value="${item.id}+','+${item.productName}">
+                    Delete
+                </button>
+            </td>
+            <td>
+                <a th:href="@{/product/view/{id}(id = ${item.id})}" class="btn btn-outline-primary">View</a>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Modal -->
+<form method="post" th:action="@{delete?}">
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Delete Product</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="text" hidden id="idDelete" name="id">
+                    <span class="text-danger">do you want to delete? <span id="nameDelete"></span></span>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-outline-danger" value="Delete">
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<script>
+    function objDelete(id) {
+        let arr = id.split(",");
+        document.getElementById("idDelete").value = arr[0];
+        document.getElementById("nameDelete").innerText = arr[1];
+    }
+</script>
+</body>
+</html>

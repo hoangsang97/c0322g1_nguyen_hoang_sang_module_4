@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d25d772-314f-44d2-a64d-22a2bc06d149" name="Default Changelist" comment="ss07 bai tap" />
+    <list default="true" id="3d25d772-314f-44d2-a64d-22a2bc06d149" name="Default Changelist" comment="ss08 bai tap" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +54,7 @@
       <workItem from="1658324044706" duration="635000" />
       <workItem from="1658416630514" duration="84000" />
       <workItem from="1658418436814" duration="78000" />
+      <workItem from="1658485659102" duration="31000" />
     </task>
     <task id="LOCAL-00001" summary="edit module 4">
       <created>1657699204890</created>
@@ -153,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658418450934</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="ss08 bai tap">
+      <created>1658485677747</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658485677747</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +187,7 @@
     <MESSAGE value="ss05 bai tap" />
     <MESSAGE value="ss06 bai tap" />
     <MESSAGE value="ss07 bai tap" />
-    <option name="LAST_COMMIT_MESSAGE" value="ss07 bai tap" />
+    <MESSAGE value="ss08 bai tap" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss08 bai tap" />
   </component>
 </project>
