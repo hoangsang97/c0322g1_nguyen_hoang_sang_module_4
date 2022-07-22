@@ -3,14 +3,13 @@ package vn.codegym.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
-import vn.codegym.model.Blog;
 import vn.codegym.model.Category;
-import vn.codegym.service.IBlogService;
 import vn.codegym.service.ICategoryService;
 
 import java.util.Optional;
@@ -22,7 +21,7 @@ public class CategoryController {
     private ICategoryService categoryService;
 
     @GetMapping("showList")
-    public String showList(@PageableDefault(value = 2)Pageable pageable, Model model){
+    public String showList(@PageableDefault(value = 2, sort = "dateCreate", direction = Sort.Direction.DESC)Pageable pageable, Model model){
         Page<Category> categories = categoryService.findAll(pageable);
         model.addAttribute("category", categories);
         return "blog/category/list";
@@ -42,9 +41,9 @@ public class CategoryController {
         return "redirect:/category/showList";
     }
 
-    @GetMapping("showViewBlog")
-    public String viewBlog(){
-        return "redirect:/blog/showList";
+    @GetMapping("showViewBlog/{id}")
+    public String viewBlog(@PathVariable int id){
+        return "redirect:/blog/showList/" + id + "/" + 0;
     }
 
     @GetMapping("showEdit/{id}")

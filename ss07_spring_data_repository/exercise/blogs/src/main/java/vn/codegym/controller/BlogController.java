@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import vn.codegym.model.Blog;
 import vn.codegym.service.IBlogService;
+import vn.codegym.service.ICategoryService;
 
 import java.util.Date;
 import java.util.Optional;
@@ -22,9 +23,12 @@ public class BlogController {
     @Autowired
     private IBlogService blogService;
 
-    @GetMapping("showList")
-    public String showList(@PageableDefault(value = 2, sort = "dateCreate", direction = Sort.Direction.DESC)Pageable pageable, Model model) {
-        Page<Blog> blogList = blogService.findAll(pageable);
+    @Autowired
+    private ICategoryService categoryService;
+
+    @GetMapping({"showList/{id}/{page}",""})
+    public String showList(@PathVariable int id, @PageableDefault(value = 1) Pageable pageable, Model model, @PathVariable int page) {
+        Page<Blog> blogList = blogService.viewBlog(id, pageable.withPage(page));
         model.addAttribute("blog", blogList);
         return "blog/list";
     }
@@ -32,6 +36,7 @@ public class BlogController {
     @GetMapping("showCreate")
     public String showCreate(Model model) {
         model.addAttribute("blog", new Blog());
+        model.addAttribute("category", categoryService.finAllCategory());
         return "blog/create";
     }
 

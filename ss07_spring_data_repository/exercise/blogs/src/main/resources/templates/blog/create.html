@@ -24,6 +24,12 @@
             <label class="form-label">Content</label>
             <input type="text" class="form-control" th:field="*{content}">
         </div>
+        <div class="mb-3">
+            <label class="form-label">Category</label>
+            <select th:field="*{category}">
+                <option th:value="${item.id}" th:each="item : ${category}" th:text="${item.name}"></option>
+            </select>
+        </div>
         <input type="submit" value="Create" class="btn btn-primary">
     </form>
 </div>

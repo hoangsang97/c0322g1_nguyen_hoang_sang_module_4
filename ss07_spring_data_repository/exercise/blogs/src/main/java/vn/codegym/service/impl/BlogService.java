@@ -17,6 +17,11 @@ public class BlogService implements IBlogService {
     private IBlogRepository blogRepository;
 
     @Override
+    public Page<Blog> viewBlog(int id, Pageable pageable) {
+        return blogRepository.viewBlog(id, pageable);
+    }
+
+    @Override
     public Page<Blog> findAll(Pageable pageable) {
         return blogRepository.findAll(pageable);
     }

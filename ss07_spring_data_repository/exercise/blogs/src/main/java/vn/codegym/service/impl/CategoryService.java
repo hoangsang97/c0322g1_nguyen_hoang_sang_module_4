@@ -8,12 +8,18 @@ import vn.codegym.model.Category;
 import vn.codegym.repository.ICategoryRepository;
 import vn.codegym.service.ICategoryService;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
 public class CategoryService implements ICategoryService {
     @Autowired
     ICategoryRepository categoryRepository;
+
+    @Override
+    public List<Category> finAllCategory() {
+        return categoryRepository.findAll();
+    }
 
     @Override
     public Page<Category> findAll(Pageable pageable) {

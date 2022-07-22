@@ -47,7 +47,7 @@
                 </button>
             </td>
             <td>
-                <a th:href="@{/category/showViewBlog}" class="btn btn-outline-primary">View Blog</a>
+                <a th:href="@{/category/showViewBlog/{id} (id = ${item.id})}" class="btn btn-outline-primary">View Blog</a>
             </td>
         </tr>
         </tbody>
