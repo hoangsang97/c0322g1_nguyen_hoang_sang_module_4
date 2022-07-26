@@ -55,6 +55,7 @@
       <workItem from="1658416630514" duration="84000" />
       <workItem from="1658418436814" duration="78000" />
       <workItem from="1658485659102" duration="31000" />
+      <workItem from="1658490808254" duration="615000" />
     </task>
     <task id="LOCAL-00001" summary="edit module 4">
       <created>1657699204890</created>
@@ -161,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658485677747</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="ss08 bai tap">
+      <created>1658490821466</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658490821466</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

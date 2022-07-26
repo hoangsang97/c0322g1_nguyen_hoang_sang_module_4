@@ -21,6 +21,7 @@ import vn.codegym.service.ICourseService;
 import vn.codegym.service.IStudentService;
 
 import java.util.Date;
+import java.util.concurrent.ExecutionException;
 
 @Controller
 @RequestMapping("student")
@@ -36,9 +37,12 @@ public class StudentController {
     private ICourseService courseService;
 
     @GetMapping("showList")
-    public String showList(@PageableDefault(value = 3)Pageable pageable, Model model) {
+    public String showList(@PageableDefault(value = 3)Pageable pageable, Model model) throws Exception {
         Page<Student> studentList = studentService.findAll(pageable);
         model.addAttribute("student", studentList);
+        if (1 == 1) {
+            throw new Exception();
+        }
         return "student/list";
     }
 
