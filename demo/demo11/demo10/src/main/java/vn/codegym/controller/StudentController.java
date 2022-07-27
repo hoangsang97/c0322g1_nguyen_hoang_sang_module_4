@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import vn.codegym.model.Student;
-import vn.codegym.repository.ICourseRepository;
 import vn.codegym.service.IClassRoomService;
 import vn.codegym.service.ICourseService;
 import vn.codegym.service.IStudentService;
@@ -34,9 +33,12 @@ public class StudentController {
     private ICourseService courseService;
 
     @GetMapping("showList")
-    public String showList(@PageableDefault(value = 3)Pageable pageable, Model model) {
+    public String showList(@PageableDefault(value = 3)Pageable pageable, Model model) throws Exception {
         Page<Student> studentList = studentService.findAll(pageable);
         model.addAttribute("student", studentList);
+        if (1 == 1) {
+            throw new Exception();
+        }
         return "student/list";
     }
 
