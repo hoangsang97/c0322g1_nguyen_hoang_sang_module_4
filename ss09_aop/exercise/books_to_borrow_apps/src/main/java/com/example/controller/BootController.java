@@ -34,13 +34,16 @@ public class BootController {
     private IOrderBorrowService orderBorrowService;
 
     @GetMapping("showList")
-    public String showList(@PageableDefault Pageable pageable, Model model) {
+    public String showList(@PageableDefault Pageable pageable, Model model) throws Exception {
         Page<Boot> boots = bootService.findAll(pageable);
         model.addAttribute("boot", boots);
         List<Borrow> borrowList = borrowService.findAll();
         model.addAttribute("borrow", borrowList);
         model.addAttribute("orderBorrow", new OrderBorrow());
         model.addAttribute("borrows", new Borrow());
+        if (1 == 1) {
+            throw new Exception();
+        }
         return "list";
     }
 

@@ -46,9 +46,16 @@
             <td>
                 <a th:href="@{/}" class="btn btn-outline-danger btn-sm">payment</a>
             </td>
+            <td>
+                <a th:href="@{/product/productDetail/{id} (id = ${item.id})}" class="btn btn-outline-danger btn-sm">detail</a>
+            </td>
         </tr>
         </tbody>
     </table>
+
+    <div th:if="${historyProduct}">
+        <p th:text="${historyProduct.name}"></p>
+    </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
