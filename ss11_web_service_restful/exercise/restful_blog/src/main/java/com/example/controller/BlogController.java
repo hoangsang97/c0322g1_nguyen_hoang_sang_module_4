@@ -16,6 +16,7 @@ import java.util.Optional;
 
 @Controller
 @RequestMapping("blog/api/v1")
+@CrossOrigin
 public class BlogController {
 
     @Autowired

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Price</th>
+    </tr>
+</table>
+
+<script src="jquery-3.6.0.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url : 'http://localhost:8080/phone/api/v1',
+            type: 'GET',
+            dataType: 'json',
+            success: function (data) {
+                console.log(data)
+                let tr = [];
+                for (let i = 0; i < data.length; i++) {
+                    tr.push("<tr>");
+                        tr.push("<td>" + data[i].id + "</td>");
+                        tr.push("<td>" + data[i].name + "</td>");
+                        tr.push("<td>" + data[i].price + "</td>");
+                    tr.push("</tr>");
+                }
+                $("table").append(tr.join(""));
+            }
+        })
+    })
+</script>
+</body>
+</html>

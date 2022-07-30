@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="height: 100px; width: 100px; position: relative; background-color: green"></div>
+<h1 id="h1">Hello</h1>
+<button>Click</button>
+
+<script src="jquery-3.6.0.min.js"></script>
+<script>
+    $("button").click(function () {
+        $("div").animate({
+            left: '200px'
+        });
+    })
+</script>
+</body>
+</html>
