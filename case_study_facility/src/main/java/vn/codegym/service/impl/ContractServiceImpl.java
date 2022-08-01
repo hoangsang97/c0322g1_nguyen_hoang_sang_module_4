@@ -19,4 +19,9 @@ public class ContractServiceImpl implements IContractService {
     public Page<Contract> findAll(Pageable pageable) {
         return contractRepository.findAll(pageable);
     }
+
+    @Override
+    public void create(Contract contract) {
+        contractRepository.save(contract);
+    }
 }

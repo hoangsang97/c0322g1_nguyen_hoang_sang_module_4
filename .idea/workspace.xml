@@ -1,23 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d25d772-314f-44d2-a64d-22a2bc06d149" name="Default Changelist" comment="ss11 bai tap">
-      <change afterPath="$PROJECT_DIR$/demo/demo15/jquery_demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo16/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo17/ajax_demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo17/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_jquery_ajax/exercise/blog/ajax_demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_jquery_ajax/exercise/blog/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_jquery_ajax/exercise/phone/src/main/java/com/example/controller/PhoneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_jquery_ajax/exercise/phone/src/main/java/com/example/model/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_jquery_ajax/exercise/phone/src/main/java/com/example/repository/IPhoneRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_jquery_ajax/exercise/phone/src/main/java/com/example/service/IPhoneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_jquery_ajax/exercise/phone/src/main/java/com/example/service/PhoneServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_jquery_ajax/phone_ajax/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_jquery_ajax/phone_ajax/jquery-3.6.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss12_jquery_ajax/phone_ajax/phoneList.html" afterDir="false" />
+    <list default="true" id="3d25d772-314f-44d2-a64d-22a2bc06d149" name="Default Changelist" comment="ss12 bai tap">
+      <change afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/repository/IContractDetailRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/IContractDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/impl/ContractDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study_facility/src/main/resources/templates/contract/jquery-3.6.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/model/MyUserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/service/MyUserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo19/user/src/main/java/com/example/config/WebSecurityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo19/user/src/main/java/com/example/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo19/user/src/main/java/com/example/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo19/user/src/main/java/com/example/model/MyUserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo19/user/src/main/java/com/example/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo19/user/src/main/java/com/example/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo19/user/src/main/java/com/example/repository/IEmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo19/user/src/main/java/com/example/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo19/user/src/main/java/com/example/service/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo19/user/src/main/java/com/example/service/IEmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo19/user/src/main/java/com/example/service/MyUserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo19/user/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo20/user/src/main/java/com/example/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo20/user/src/main/java/com/example/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo20/user/src/main/java/com/example/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo20/user/src/main/java/com/example/model/MyUserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo20/user/src/main/java/com/example/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo20/user/src/main/java/com/example/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo20/user/src/main/java/com/example/repository/ICustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo20/user/src/main/java/com/example/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo20/user/src/main/java/com/example/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo20/user/src/main/java/com/example/service/ICustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo20/user/src/main/java/com/example/service/MyUserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/demo20/user/src/main/resources/templates/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_spring_security/exercise/blogs/src/main/java/vn/codegym/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_spring_security/exercise/blogs/src/main/java/vn/codegym/model/MyUserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_spring_security/exercise/blogs/src/main/java/vn/codegym/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_spring_security/exercise/blogs/src/main/java/vn/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_spring_security/exercise/blogs/src/main/java/vn/codegym/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss13_spring_security/exercise/blogs/src/main/java/vn/codegym/service/MyUserDetailServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss11_web_service_restful/exercise/restful_blog/src/main/java/com/example/controller/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss11_web_service_restful/exercise/restful_blog/src/main/java/com/example/controller/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/controller/ContractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/controller/ContractController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/IAttachFacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/IAttachFacilityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/IContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/IContractService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/impl/AttachFacilityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/impl/AttachFacilityServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/impl/ContractServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/impl/ContractServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/resources/templates/contract/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/resources/templates/contract/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12_jquery_ajax/exercise/phone/src/main/java/com/example/controller/PhoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ss12_jquery_ajax/exercise/phone/src/main/java/com/example/controller/PhoneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss12_jquery_ajax/phone_ajax/phoneList.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12_jquery_ajax/phone_ajax/phoneList.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +151,10 @@
       <workItem from="1658490808254" duration="615000" />
       <workItem from="1658831399417" duration="55000" />
       <workItem from="1658927394674" duration="56000" />
-      <workItem from="1659001938672" duration="12572000" />
+      <workItem from="1659001938672" duration="13778000" />
+      <workItem from="1659316464330" duration="1700000" />
+      <workItem from="1659325835529" duration="23000" />
+      <workItem from="1659336395958" duration="5267000" />
     </task>
     <task id="LOCAL-00001" summary="edit module 4">
       <created>1657699204890</created>
@@ -247,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659001955446</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="ss12 bai tap">
+      <created>1659163374722</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1659163374722</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,6 +326,7 @@
     <MESSAGE value="ss09 bai tap" />
     <MESSAGE value="ss10 bai tap" />
     <MESSAGE value="ss11 bai tap" />
-    <option name="LAST_COMMIT_MESSAGE" value="ss11 bai tap" />
+    <MESSAGE value="ss12 bai tap" />
+    <option name="LAST_COMMIT_MESSAGE" value="ss12 bai tap" />
   </component>
 </project>

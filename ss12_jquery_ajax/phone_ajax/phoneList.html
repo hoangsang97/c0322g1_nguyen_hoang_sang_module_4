@@ -5,6 +5,7 @@
     <title>Title</title>
 </head>
 <body>
+<input type="text" name="search">
 <table border="1">
     <tr>
         <th>ID</th>
@@ -23,16 +24,41 @@
             dataType: 'json',
             success: function (data) {
                 console.log(data)
+                console.log(data)
                 let tr = [];
                 for (let i = 0; i < data.length; i++) {
                     tr.push("<tr>");
-                        tr.push("<td>" + data[i].id + "</td>");
-                        tr.push("<td>" + data[i].name + "</td>");
-                        tr.push("<td>" + data[i].price + "</td>");
+                    tr.push("<td>" + data[i].id + "</td>");
+                    tr.push("<td>" + data[i].name + "</td>");
+                    tr.push("<td>" + data[i].price + "</td>");
                     tr.push("</tr>");
                 }
                 $("table").append(tr.join(""));
             }
+        })
+
+        $("input").keyup(function () {
+            let value = $(this).val();
+
+            $("table").empty();
+
+            $.ajax({
+                url: "http://localhost:8080/phone/api/v1/search?name=" + value,
+                type: "GET",
+                dataType: "json",
+                success: function (data) {
+                    console.log(data)
+                    let tr = [];
+                    for (let i = 0; i < data.length; i++) {
+                        tr.push("<tr>");
+                        tr.push("<td>" + data[i].id + "</td>");
+                        tr.push("<td>" + data[i].name + "</td>");
+                        tr.push("<td>" + data[i].price + "</td>");
+                        tr.push("</tr>");
+                    }
+                    $("table").append(tr.join(""));
+                }
+            })
         })
     })
 </script>

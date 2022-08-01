@@ -6,17 +6,10 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import vn.codegym.model.AttachFacility;
-import vn.codegym.model.Contract;
-import vn.codegym.model.Customer;
-import vn.codegym.model.Facility;
-import vn.codegym.service.IAttachFacilityService;
-import vn.codegym.service.IContractService;
-import vn.codegym.service.ICustomerService;
-import vn.codegym.service.IFacilityService;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+import vn.codegym.model.*;
+import vn.codegym.service.*;
 
 import java.util.List;
 
@@ -35,6 +28,9 @@ public class ContractController {
 
     @Autowired
     private IFacilityService facilityService;
+
+    @Autowired
+    private IContractDetailService contractDetailService;
 
     @GetMapping("showList")
     public String showList(@PageableDefault(value = 5) Pageable pageable, Model model) {
@@ -77,5 +73,19 @@ public class ContractController {
         List<Facility> facilityList = facilityService.findAllFacility();
         model.addAttribute("facilityList", facilityList);
         return "contract/list";
+    }
+
+    @PostMapping("create")
+    public String create(@ModelAttribute Contract contract,
+                         RedirectAttributes redirectAttributes) {
+        contractService.create(contract);
+        redirectAttributes.addFlashAttribute("mess", "Create OK!");
+        return "redirect:/contract/showList";
+    }
+
+    @PostMapping("createContractDetail")
+    public String createContractDetail(@ModelAttribute ContractDetail contractDetail){
+        contractDetailService.create(contractDetail);
+        return "redirect:/contract/showList";
     }
 }

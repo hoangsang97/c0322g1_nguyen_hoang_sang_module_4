@@ -32,4 +32,10 @@ public class PhoneController {
         phoneService.create(phone);
         return new ResponseEntity(HttpStatus.OK);
     }
+
+    @GetMapping("/search?name=")
+    public ResponseEntity<List<Phone>> search(@ModelAttribute String name) {
+        List<Phone> phoneList = phoneService.search(name);
+        return new ResponseEntity<>(phoneList, HttpStatus.OK);
+    }
 }

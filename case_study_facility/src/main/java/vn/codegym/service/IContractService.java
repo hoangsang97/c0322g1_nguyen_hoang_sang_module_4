@@ -6,4 +6,6 @@ import vn.codegym.model.Contract;
 
 public interface IContractService {
     Page<Contract> findAll(Pageable pageable);
+
+    void create(Contract contract);
 }
