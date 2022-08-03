@@ -55,8 +55,6 @@
         $("#inputSearch").keyup(function () {
             let value = $(this).val();
 
-            console.log(value);
-
             $("table").empty();
 
             $.ajax({
@@ -65,8 +63,6 @@
                 dataType: "json",
                 success: function (data) {
                     let tr = [];
-                    debugger
-                    console.log(data);
                     for (let i = 0; i < data.content.length; i++) {
                         tr.push("<tr>");
                         tr.push("<td>" + data.content[i].id + "</td>");
