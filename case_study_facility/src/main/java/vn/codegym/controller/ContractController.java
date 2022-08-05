@@ -55,12 +55,6 @@ public class ContractController {
         model.addAttribute("facilityList", facilityList);
         List<AttachFacility> contractDetailList = attachFacilityService.findAll();
         model.addAttribute("contractDetailList", contractDetailList);
-        List<Contract> contract = contractService.findAllContract();
-        int idContract = 0;
-        for (Contract item : contract) {
-            idContract = item.getId();
-        }
-        model.addAttribute("idContract", idContract);
         return "contract/list";
     }
 
@@ -95,16 +89,28 @@ public class ContractController {
     }
 
     @PostMapping("create")
-    public String create(@ModelAttribute Contract contract,
-                         RedirectAttributes redirectAttributes) {
+    public ResponseEntity<?> create(@RequestBody Contract contract) {
         contractService.create(contract);
-        redirectAttributes.addFlashAttribute("mess", "Create OK!");
-        return "redirect:/contract/showList";
+        List<Contract> contracts = contractService.findAllContract();
+        int idContract = 0;
+        for (Contract item : contracts) {
+            idContract = item.getId();
+        }
+        return new ResponseEntity(idContract, HttpStatus.OK);
     }
 
     @PostMapping("createContractDetail")
-    public String createContractDetail(@RequestBody ContractDetail contractDetail) {
-        contractDetailService.create(contractDetail);
+    public ResponseEntity createContractDetail(@RequestBody String[][] contractDetailList) {
+        for (int i = 0; i < contractDetailList.length; i++) {
+            ContractDetail contractDetail = new ContractDetail(parseInt(contractDetailList[i][0]), new AttachFacility(parseInt(contractDetailList[i][1])), new Contract(parseInt(contractDetailList[i][2])));
+            contractDetailService.create(contractDetail);
+        }
+        return new ResponseEntity(HttpStatus.OK);
+    }
+
+    @PostMapping("createContract")
+    public String createContract(RedirectAttributes redirectAttributes){
+        redirectAttributes.addFlashAttribute("mess", "Create OK!");
         return "redirect:/contract/showList";
     }
 

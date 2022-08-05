@@ -66,9 +66,8 @@ values (2, 4, 5),
        (1, 2, 2),
        (12, 2, 2);
        
-SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
+-- SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 
-SET FOREIGN_KEY_CHECKS=0
 
 -- select sum(ifnull(f.cost, 0) + ifnull(cd.quantity * af.cost, 0)) as total from contract c 
 --             left join facility f on c.facility_id = f.id 

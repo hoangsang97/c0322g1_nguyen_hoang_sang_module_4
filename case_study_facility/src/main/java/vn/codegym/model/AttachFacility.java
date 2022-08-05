@@ -21,6 +21,10 @@ public class AttachFacility {
     public AttachFacility() {
     }
 
+    public AttachFacility(int id) {
+        this.id = id;
+    }
+
     public AttachFacility(int id, String name, double cost, String unit, String status) {
         this.id = id;
         this.name = name;

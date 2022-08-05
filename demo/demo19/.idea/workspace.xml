@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f685bee5-6299-40d2-989e-417a78cb92f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/model/MyUserDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/service/impl/MyUserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_facility/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study_facility/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/controller/ContractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/controller/ContractController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/model/AttachFacility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/model/AttachFacility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/model/Contract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/model/Contract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/model/ContractDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/java/vn/codegym/model/ContractDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../case_study_facility/src/main/resources/templates/contract/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../case_study_facility/src/main/resources/templates/contract/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../data_base_case_study/case_study_module_4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../data_base_case_study/case_study_module_4.sql" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2CsUXUNhVzJK1VNDtbZFJgBUDhV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f685bee5-6299-40d2-989e-417a78cb92f0" name="Default Changelist" comment="" />
+      <created>1659590825721</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659590825721</updated>
+      <workItem from="1659590826925" duration="12000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

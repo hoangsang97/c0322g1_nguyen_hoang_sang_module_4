@@ -33,6 +33,10 @@ public class Contract {
     public Contract() {
     }
 
+    public Contract(int id) {
+        this.id = id;
+    }
+
     public Contract(int id, Date startDate, Date endDate, double deposit, Employee employee, Customer customer, Facility facility, Set<ContractDetail> contractDetails) {
         this.id = id;
         this.startDate = startDate;

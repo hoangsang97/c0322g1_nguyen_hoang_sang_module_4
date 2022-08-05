@@ -16,7 +16,12 @@
 <div class="container">
     <div class="text-center">
         <h3>Customer Create</h3>
-        <a th:href="@{/customer/showList?name=}" class="text-primary text-decoration-none">Back to home</a>
+        <a th:href="@{/customer/showList?name=}" class="btn btn-outline-primary">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                 class="bi bi-skip-backward" viewBox="0 0 16 16">
+                <path d="M.5 3.5A.5.5 0 0 1 1 4v3.248l6.267-3.636c.52-.302 1.233.043 1.233.696v2.94l6.267-3.636c.52-.302 1.233.043 1.233.696v7.384c0 .653-.713.998-1.233.696L8.5 8.752v2.94c0 .653-.713.998-1.233.696L1 8.752V12a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5zm7 1.133L1.696 8 7.5 11.367V4.633zm7.5 0L9.196 8 15 11.367V4.633z"/>
+            </svg>
+        </a>
     </div>
     <form th:action="@{/customer/create}" class="row g-3" method="post" th:object="${customerDto}">
         <div class="col-12">
@@ -33,7 +38,8 @@
                 </label>
             </div>
             <div class="form-check">
-                <input class="form-check-input" type="radio" th:field="*{gender}" th:value="1" id="flexRadioDefault2" checked>
+                <input class="form-check-input" type="radio" th:field="*{gender}" th:value="1" id="flexRadioDefault2"
+                       checked>
                 <label class="form-check-label" for="flexRadioDefault2">
                     Male
                 </label>
@@ -64,9 +70,9 @@
             <input type="text" class="form-control" th:field="*{address}">
         </div>
         <div class="col-12">
-            <label class="form-label" >customerType</label>
+            <label class="form-label">customerType</label>
             <select class="form-select" aria-label="Default select example" th:field="*{customerType}">
-                <option th:each="item : ${customerTypeList}" th:text="${item.name}" th:value="${item.id}" >One</option>
+                <option th:each="item : ${customerTypeList}" th:text="${item.name}" th:value="${item.id}">One</option>
             </select>
         </div>
         <div class="col-12">
@@ -76,6 +82,7 @@
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 </html>

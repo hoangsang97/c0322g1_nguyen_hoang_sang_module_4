@@ -10,4 +10,14 @@ public class HomeController {
     public String homeFacility(){
         return "homeFacility";
     }
+
+    @GetMapping("/home")
+    public String homeLoginFacility(){
+        return "homeFacility";
+    }
+
+    @GetMapping("/login")
+    public String showLoginPage(){
+        return "login";
+    }
 }

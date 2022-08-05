@@ -27,6 +27,6 @@ public interface ICustomerRepository extends JpaRepository<Customer, Integer> {
     @Query(value = "select * from customer where status = 0", nativeQuery = true)
     Page<Customer> findAllCustomer(Pageable pageable);
 
-    @Query(value = "select * from customer where name like :name", nativeQuery = true)
+    @Query(value = "select * from customer where name like :name and status = 0", nativeQuery = true)
     Page<Customer> search(@Param("name") String name, Pageable pageable);
 }

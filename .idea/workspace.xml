@@ -1,25 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d25d772-314f-44d2-a64d-22a2bc06d149" name="Default Changelist" comment="ss13 bai tap">
-      <change afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/dto/TotalDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/dto/TotalMoneyDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/resources/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/resources/templates/login.html" afterDir="false" />
+    <list default="true" id="3d25d772-314f-44d2-a64d-22a2bc06d149" name="Default Changelist" comment="case study">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/controller/ContractController.java" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/controller/ContractController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/IAttachFacilityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/IAttachFacilityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/IContractService.java" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/IContractService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/impl/AttachFacilityServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/impl/AttachFacilityServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/impl/ContractServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/java/vn/codegym/service/impl/ContractServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/resources/templates/contract/jquery-3.6.0.min.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/resources/templates/contract/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/resources/templates/contract/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case_study_facility/src/main/resources/templates/facility/update.html" beforeDir="false" afterPath="$PROJECT_DIR$/case_study_facility/src/main/resources/templates/facility/update.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_base_case_study/case_study_module_4.sql" beforeDir="false" afterPath="$PROJECT_DIR$/data_base_case_study/case_study_module_4.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/demo18/user/src/main/java/com/example/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12_jquery_ajax/exercise/blog/ajax_demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12_jquery_ajax/exercise/blog/ajax_demo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss12_jquery_ajax/phone_ajax/phoneList.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss12_jquery_ajax/phone_ajax/phoneList.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +106,9 @@
       <workItem from="1659352707933" duration="548000" />
       <workItem from="1659410948958" duration="62000" />
       <workItem from="1659429312977" duration="10627000" />
+      <workItem from="1659511553692" duration="237000" />
+      <workItem from="1659513575738" duration="35000" />
+      <workItem from="1659513786652" duration="1244000" />
     </task>
     <task id="LOCAL-00001" summary="edit module 4">
       <created>1657699204890</created>
@@ -269,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659352739367</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="case study">
+      <created>1659511578982</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1659511578982</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +296,7 @@
     <MESSAGE value="ss11 bai tap" />
     <MESSAGE value="ss12 bai tap" />
     <MESSAGE value="ss13 bai tap" />
-    <option name="LAST_COMMIT_MESSAGE" value="ss13 bai tap" />
+    <MESSAGE value="case study" />
+    <option name="LAST_COMMIT_MESSAGE" value="case study" />
   </component>
 </project>
