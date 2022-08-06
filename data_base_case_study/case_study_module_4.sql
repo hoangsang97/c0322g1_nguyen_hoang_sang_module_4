@@ -65,6 +65,9 @@ values (2, 4, 5),
        (1, 3, 1),
        (1, 2, 2),
        (12, 2, 2);
+insert into `user` values(1, "$2a$10$Bubx1.8vMj1.bxBEcRGlEOCN/AjRC8juFZKm4i.ZHM58XwunvAg1a", "admin"), (2, "$2a$10$Bubx1.8vMj1.bxBEcRGlEOCN/AjRC8juFZKm4i.ZHM58XwunvAg1a", "user");
+insert into `role` values(1, "ROLE_ADMIN"), (2, "ROLE_USER");
+insert into user_role values(1, 1), (1, 2), (2, 2);
        
 -- SET GLOBAL sql_mode=(SELECT REPLACE(@@sql_mode,'ONLY_FULL_GROUP_BY',''));
 
