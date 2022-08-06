@@ -45,29 +45,29 @@
             </div>
         </div>
         <div class="col-md-4">
-            <label class="form-label">dateOfBirth</label>
+            <label class="form-label">Date Of Birth</label>
             <input type="text" class="form-control" th:field="*{dateOfBirth}">
         </div>
         <div class="col-md-4">
-            <label class="form-label">idCard</label>
+            <label class="form-label">Id Card</label>
             <input type="text" class="form-control" th:field="*{idCard}">
         </div>
         <div class="col-md-4">
-            <label class="form-label">phoneNumber</label>
+            <label class="form-label">Phone Number</label>
             <input type="text" class="form-control" th:field="*{phoneNumber}">
         </div>
         <div class="col-12">
-            <label class="form-label">email</label>
+            <label class="form-label">Email</label>
             <input type="text" class="form-control" th:field="*{email}">
         </div>
         <div class="col-12">
-            <label class="form-label">address</label>
+            <label class="form-label">Address</label>
             <input type="text" class="form-control" th:field="*{address}">
         </div>
         <div class="col-12">
-            <label class="form-label" >customerType</label>
+            <label class="form-label" >Customer Type</label>
             <select class="form-select" aria-label="Default select example" th:field="*{customerType}">
-                <option th:each="item : ${customerTypeList}" th:text="${item.name}" th:value="${item.id}" >One</option>
+                <option th:each="item : ${customerTypeList}" th:text="${item.name}" th:value="${item.id}" ></option>
             </select>
         </div>
         <div class="col-12">

@@ -133,24 +133,24 @@
     <table class="table table-bordered ">
         <thead class="bg-primary text-center text-light">
         <tr>
-            <th>ID</th>
-            <th>name</th>
-            <th>dateOfBirth</th>
-            <th>idCard</th>
-            <th>salary</th>
-            <th>phoneNumber</th>
-            <th>email</th>
-            <th>address</th>
-            <th>position</th>
-            <th>educationDegree</th>
-            <th>division</th>
+            <th>STT</th>
+            <th>Name</th>
+            <th>Date Of Birth</th>
+            <th>Id Card</th>
+            <th>Salary</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Position</th>
+            <th>Education Degree</th>
+            <th>Division</th>
             <th>Update</th>
             <th>Delete</th>
         </tr>
         </thead>
         <tbody>
-        <tr th:each="item : ${employee}">
-            <td th:text="${item.id}"></td>
+        <tr th:each="item, stt : ${employee}">
+            <td th:text="${stt.count + 5 * employee.number}"></td>
             <td th:text="${item.name}"></td>
             <td th:text="${item.dateOfBirth}"></td>
             <td th:text="${item.idCard}"></td>

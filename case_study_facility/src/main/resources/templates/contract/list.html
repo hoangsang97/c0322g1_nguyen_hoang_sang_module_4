@@ -21,19 +21,19 @@
     <table class="table table-bordered ">
         <thead class="bg-primary text-center text-light">
         <tr>
-            <th>ID</th>
-            <th>facility</th>
-            <th>customer</th>
-            <th>starDate</th>
-            <th>endDate</th>
-            <th>deposit</th>
-            <th>total</th>
-            <th>accompanying services</th>
+            <th>STT</th>
+            <th>Facility</th>
+            <th>Customer</th>
+            <th>Star Date</th>
+            <th>End Date</th>
+            <th>Deposit</th>
+            <th>Total</th>
+            <th>Accompanying Services</th>
         </tr>
         </thead>
         <tbody>
-        <tr th:each="item : ${totalDtoList}">
-            <td th:text="${item.id}"></td>
+        <tr th:each="item, stt : ${totalDtoList}">
+            <td th:text="${stt.count + 5 * contract.number}"></td>
             <td th:text="${item.facility.name}"></td>
             <td th:text="${item.customer.name}"></td>
             <td th:text="${item.startDate}"></td>
@@ -76,16 +76,16 @@
                 <table class="table table-bordered ">
                     <thead class="bg-primary text-center text-light">
                     <tr>
-                        <th>ID</th>
-                        <th>name</th>
-                        <th>cost</th>
-                        <th>unit</th>
-                        <th>status</th>
+                        <th>STT</th>
+                        <th>Name</th>
+                        <th>Cost</th>
+                        <th>Unit</th>
+                        <th>Status</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <tr th:each="item : ${attachFacilityList}">
-                        <td th:text="${item.id}"></td>
+                    <tr th:each="item, stt : ${attachFacilityList}">
+                        <td th:text="${stt.count}"></td>
                         <td th:text="${item.name}"></td>
                         <td th:text="${item.cost}"></td>
                         <td th:text="${item.unit}"></td>
@@ -109,31 +109,31 @@
             <div class="modal-content">
                 <div class="modal-body">
                     <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label">startDate</label>
+                        <label class="col-sm-2 col-form-label">Start Date</label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control" id="startDate">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label">endDate</label>
+                        <label class="col-sm-2 col-form-label">End Date</label>
                         <div class="col-sm-10">
                             <input type="text" class="form-control" id="endDate">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label">deposit</label>
+                        <label class="col-sm-2 col-form-label">Deposit</label>
                         <div class="col-sm-10">
                             <input type="number" class="form-control" id="deposit">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label">total</label>
+                        <label class="col-sm-2 col-form-label">Total</label>
                         <div class="col-sm-10">
                             <input type="number" class="form-control" disabled id="total">
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label">customer</label>
+                        <label class="col-sm-2 col-form-label">Customer</label>
                         <div class="col-sm-10">
                             <select class="form-select" aria-label="Default select example" id="customer">
                                 <option th:each="item : ${customerList}" th:text="${item.name}"
@@ -142,7 +142,7 @@
                         </div>
                     </div>
                     <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label">facility</label>
+                        <label class="col-sm-2 col-form-label">Facility</label>
                         <div class="col-sm-10">
                             <select class="form-select" aria-label="Default select example"
                                     id="idFacility">
@@ -161,17 +161,17 @@
                             <table class="table table-bordered ">
                                 <thead class="bg-primary text-center text-light">
                                 <tr>
-                                    <th>ID</th>
-                                    <th>name</th>
-                                    <th>cost</th>
-                                    <th>unit</th>
-                                    <th>status</th>
-                                    <th>quantity</th>
+                                    <th>STT</th>
+                                    <th>Name</th>
+                                    <th>Cost</th>
+                                    <th>Unit</th>
+                                    <th>Status</th>
+                                    <th>Quantity</th>
                                 </tr>
                                 </thead>
                                 <tbody>
-                                <tr th:each="item : ${contractDetailList}">
-                                    <td th:text="${item.id}"></td>
+                                <tr th:each="item, stt : ${contractDetailList}">
+                                    <td th:text="${stt.count}"></td>
                                     <td hidden>
                                         <div class="input-group">
                                             <input type="number" th:value="${item.id}"

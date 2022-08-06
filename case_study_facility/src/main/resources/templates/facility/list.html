@@ -37,25 +37,25 @@
     <table class="table table-bordered ">
         <thead class="bg-primary text-center text-light">
         <tr>
-            <th>ID</th>
-            <th>name</th>
-            <th>area</th>
-            <th>cost</th>
-            <th>maxPeople</th>
-            <th>standardRoom</th>
-            <th>description</th>
-            <th>poolArea</th>
-            <th>numberOfFloors</th>
-            <th>facilityFree</th>
-            <th>renType</th>
-            <th>facilityType</th>
+            <th>STT</th>
+            <th>Name</th>
+            <th>Area</th>
+            <th>Cost</th>
+            <th>Max People</th>
+            <th>Standard Room</th>
+            <th>Description</th>
+            <th>Pool Area</th>
+            <th>Number Of Floors</th>
+            <th>Facility Free</th>
+            <th>Ren Type Name</th>
+            <th>Facility Type Name</th>
             <th>Update</th>
             <th>Delete</th>
         </tr>
         </thead>
         <tbody>
-        <tr th:each="item : ${facility}">
-            <td th:text="${item.id}"></td>
+        <tr th:each="item, stt : ${facility}">
+            <td th:text="${stt.count + 5 * facility.number}"></td>
             <td th:text="${item.name}"></td>
             <td th:text="${item.area}"></td>
             <td th:text="${item.cost}"></td>

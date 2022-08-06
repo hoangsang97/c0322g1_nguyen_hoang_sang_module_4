@@ -47,21 +47,21 @@
     <table class="table table-bordered">
         <thead class="bg-primary text-center text-light">
         <tr>
-            <th>ID</th>
-            <th>name</th>
-            <th>dateOfBirth</th>
-            <th>gender</th>
-            <th>phoneNumber</th>
-            <th>email</th>
-            <th>address</th>
-            <th>customerType</th>
+            <th>STT</th>
+            <th>Name</th>
+            <th>Date Of Birth</th>
+            <th>Gender</th>
+            <th>Phone Number</th>
+            <th>Email</th>
+            <th>Address</th>
+            <th>Customer Type</th>
             <th>Update</th>
             <th>Delete</th>
         </tr>
         </thead>
         <tbody>
-        <tr th:each="item : ${customer}">
-            <td th:text="${item.id}"></td>
+        <tr th:each="item,stt : ${customer}">
+            <td th:text="${stt.count + 5 * customer.number}"></td>
             <td th:text="${item.name}"></td>
             <td th:text="${item.dateOfBirth}"></td>
             <td th:if="${item.gender == 0}">Female</td>
